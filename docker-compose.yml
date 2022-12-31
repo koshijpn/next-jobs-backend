@@ -1,0 +1,12 @@
+services:
+  next-jobs-backend:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    volumes:
+      - ./pb_data:/pb/pb_data
+    image: next-jobs-backend-image
+    container_name: next-jobs-backend
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
