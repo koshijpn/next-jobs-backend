@@ -12,7 +12,7 @@ This repository is merely the backend of NEXT Jobs. We utilize Pocketbase instea
     ````sh
     git clone git@github.com:NextAcademy/next-jobs-db-backend.git # if you have already set up SSH keys
     git clone https://github.com/NextAcademy/next-jobs-db-backend.git
-    ```
+    `
 4. Navigate into the root of this repository `cd </path/to/project>`
 5. Run! `docker-compose up -d` or `docker compose up -d` depending on your version of Docker Compose
 6. Go to `http://localhost:8080/_/` in your browser
